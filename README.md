@@ -76,7 +76,7 @@ Unfortunately, I'm just learning css and js, so the application has **NOT** been
 When creating this project, I used ChatGPT and StackOverflow, because this is my first project since finishing the web technology course, I needed something that I could use to help me.
 
 #### Project Suppot
-If you need help with the client, text to me:
+If you need help, text to me:
 - Discord: 0whtiedev / 0WhiteDev#0001
 - Email: 0whitedev@gmail.com
 ## Authors
