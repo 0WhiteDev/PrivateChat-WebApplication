@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.particle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.particle {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.container {
+    background-color: rgba(26, 26, 26, 0.44);
+    padding: 20px;
+    border-radius: 10px;
+    filtr: blur(4px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+    width: 400px;
+    margin: 100px auto;
+    color: #181818;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #c5c5c5;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: rgba(10, 10, 10, 0.6);
+    color: #c5c5c5;
+    width: 70%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.background {
+    background-image: url('../../images/main/background.webp');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px) brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.button-login,
+.button-register {
+    background-color: #af4c4c;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #984343;
+    margin-bottom: 10px;
+}
+
+.information h5{
+    text-align: center;
+    color: #ff0000;
+}
+
+input[type="submit"]:hover{
+    background-color: #a04545;
+}
+
+a {
+    color: #c5c5c5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #969696;
+}
+
+p {
+    margin: 10px;
+    color: #c5c5c5;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    padding: 5px;
+    text-align: right;
+    z-index: 1;
+}
+
+
+.background.show,
+.register-link.show,
+.container.show,
+.button-container.show{
+    opacity: 1;
+}
+

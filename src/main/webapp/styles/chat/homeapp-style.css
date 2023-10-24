@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #c5c5c5;
+}
+
+.information h5{
+    text-align: center;
+    color: #ff0000;
+}
+
+.container {
+    background-color: rgba(26, 26, 26, 0.44);
+    padding: 20px;
+    border-radius: 10px;
+    filtr: blur(4px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+    width: 400px;
+    margin: 100px auto;
+    color: #181818;
+    position: relative;
+    z-index: 1;
+}
+
+.panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #c5c5c5;
+    background-color: rgba(26, 26, 26, 0.44);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+}
+
+.panel p {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.panel-link {
+    display: block;
+    margin: 10px;
+    padding-bottom: 0;
+}
+
+.back,
+.logout{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 15px;
+    color: #c5c5c5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back:hover,
+.logout:hover{
+    color: #969696;
+}
+
+input[type="text"], input[type="password"]  {
+    background-color: rgba(10, 10, 10, 0.6);
+    color: #c5c5c5;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 0;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    background-color: #af4c4c;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #984343;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+    background-color: rgba(10, 10, 10, 0.6);
+    color: #c5c5c5;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 8px;
+}
+
+.input-container input[type="submit"] {
+    background-color: rgba(10, 10, 10, 0.6);
+    color: #c5c5c5;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 8px;
+}
+
+.input-container input[type="submit"] {
+    background-color: #af4c4c;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #984343;
+    margin-bottom: 10px;
+}
+
+
+input[type="submit"]:hover{
+    background-color: #a04545;
+}

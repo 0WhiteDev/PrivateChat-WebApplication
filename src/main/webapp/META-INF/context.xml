@@ -1,0 +1,15 @@
+<Context>
+    <Resource name="jdbc/privatechat"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              type="javax.sql.DataSource"
+              username="root"
+              password="admin"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/privatechat?serverTimezone=UTC"/>
+    <Realm className="org.apache.catalina.realm.DataSourceRealm"
+           dataSourceName="jdbc/privatechat"
+           localDataSource="true"
+           userTable="user"
+           userNameCol="username"
+           userCredCol="password"/>
+</Context>
