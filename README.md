@@ -81,5 +81,6 @@ If you need help, text to me:
 - Email: 0whitedev@gmail.com
 ## Authors
 
+- [@DevsMarket](https://github.com/DEVS-MARKET)
 - [@0WhiteDev](https://github.com/0WhiteDev)
 
