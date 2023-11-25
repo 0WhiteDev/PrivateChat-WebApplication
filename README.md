@@ -77,7 +77,7 @@ When creating this project, I used ChatGPT and StackOverflow, because this is my
 
 #### Project Suppot
 If you need help, text to me:
-- Discord: 0whtiedev / 0WhiteDev#0001
+- Discord: 0whitedev / 0WhiteDev#0001
 - Email: 0whitedev@gmail.com
 ## Authors
 
